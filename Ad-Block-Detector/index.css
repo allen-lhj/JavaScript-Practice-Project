@@ -28,6 +28,7 @@ body {
   border-radius: 15px;
   opacity: 0;
   pointer-events: none;
+  /* 放大1.2倍，向左上移动50% */
   transform: translate(-50%, -50%) scale(1.2);
   box-shadow: 10px 10px 15px rgba(0,0,0,0.06);
   transition: opacity 0.2s 0s ease-in-out,
