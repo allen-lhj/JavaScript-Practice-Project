@@ -67,7 +67,7 @@ body {
   position: absolute;
   border-radius: 50%;
 }
-
+/* ::before创建一个伪元素，其将成为匹配选中的元素的第一个字元素，常通过content属性来为一个元素添加修饰性的内容 */
 .hr:before {
   content: '';
   position: absolute;
@@ -88,7 +88,7 @@ body {
   z-index: 11;
 }
 
-.sc:before {
+.sc::before {
   content: '';
   position: absolute;
   width: 2px;
